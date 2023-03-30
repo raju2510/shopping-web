@@ -1,0 +1,68 @@
+@media(max-width:1024px) {
+    .featured-text h2 {
+        padding-left: 470px;
+        font-size: 42px;
+    }
+
+    .featured-text a {
+        padding-left: 470px;
+    }
+
+    .manu {
+        padding: 0 0px;
+
+    }
+
+    .menu ul li {
+        padding: 0 0px;
+
+    }
+
+    .menu ul li a {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:360px) {
+    .menu ul{
+        display: none;
+    }
+    
+    .menu .toggal{
+        display: inline-block;
+        margin: 25px;
+        font-size: 15px;
+    }
+    .menu .toggal .fa{
+       
+        font-size: 32px;
+        color: var(--primary);
+    }
+    .featured-text h2{
+        display: none;
+    }
+
+    .featured-text {
+        background-image: url("../img/offer.png");
+        padding:125px;
+        width: 98%;
+    }
+
+    .card-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: 80%;
+    }
+.footer-0 {
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-0 i{
+    margin: 5px;
+}
+.right i {
+margin: 0px 8px;}
+}
